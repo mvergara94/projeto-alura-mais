@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+:root {
+  --branco-principal: #ffffff;
+  --cinza-secundario: #c0c0c0;
+  --botao-azul: #167bf7;
+  --botao-azul-efeito: #67a7f5;
+  --cor-fundo: #00030c;
+  --fonte: 'Inter', sans-serif;
+}
+
+body {
+  background-color: var(--cor-fundo);
+  color: var(--branco-principal);
+  font-family: var(--fonte);
+  font-weight: 400;
+}
+
+.container {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.principal {
+  background-image: url(/assets/img/Background.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  align-items: center;
+  text-align: center;
+}
+
+.container__caixa {
+  margin: 0 6em;
+}
+
+.container__titulo {
+  font-weight: 700;
+  font-size: 1.75rem;
+}
+
+.container__imagem {
+  margin: 1em 0 2em 0;
+}
+
+.container__botao {
+  background-color: var(--botao-azul);
+  border-radius: 8px;
+  padding: 1em;
+  color: var(--branco-principal);
+  display: block;
+  margin-bottom: 1em;
+}
+
+.container__botao:hover {
+  background-color: var(--botao-azul-efeito);
+  color: var(--cor-fundo);
+}
+
+.botao_secundario {
+  background-color: transparent;
+  border: 1px solid var(--branco-principal);
+}
+
+.container__aviso {
+  font-size: 0.75rem;
+  color: var(--cinza-secundario);
+}
+
+.secundario {
+  align-items: center;
+  margin: 0 10em;
+}
+
+.secundario__imagem {
+  width: 80%;
+}
+
+.descricao__titulo {
+  font-weight: 700;
+  font-size: 3rem;
+  color: var(--branco-principal);
+  margin-bottom: 0.5rem;
+}
+
+.descricao__texto {
+  color: var(--cinza-secundario);
+}
+
+.container__descricao {
+  padding: 2em;
+}
+
+.secundario__botao {
+  display: inline-block;
+  margin-top: 1.5em;
+}
+
+/* Ultimo container */
+
+.dispositivos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 9rem;
+}
+
+.dispositivos__lista {
+  display: flex;
+  gap: 69px;
+}
+
+.dispositivo__lista__item {
+  font-size: 2em;
+  font-weight: 700;
+  text-align: center;
+}
+
+.rodape {
+  text-align: center;
+  margin: 0 10rem;
+}
+
+.rodape__links {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 2.5rem 0 1.25rem 0;
+}
+
+.rodape__links__itens {
+  color: var(--branco-principal);
+}
+
+.rodape__texto {
+  color: var(--cinza-secundario);
+  font-size: 0.875rem;
+  margin-bottom: 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.rodape__links__itens:hover {
+  color: var(--botao-azul);
+}
+
+.rodape__links__itens:active {
+  color: purple;
+}
