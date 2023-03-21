@@ -6,7 +6,7 @@
 
 # Resumo do projeto
 
-`` Projeto da pagina inicial de uma plataforma de streaming, a Alura+, ainda sem responsividade. Vai ser a próxima coisa que pretendo implementar. Foco deste projeto foi praticar o CSS e o HTML.``
+`` Projeto da pagina inicial de uma plataforma de streaming, a Alura+, começei a colocar alguns estilos referentes a responsividade. Foco deste projeto foi praticar o CSS e o HTML.``
 
 
 
